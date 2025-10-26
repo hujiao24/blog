@@ -32,7 +32,7 @@ defaultContentLanguage = "zh"
     weight = 5
   [[menu.main]]
     name = "工具"
-    url = "https://blog.qc7.org/"
+    url = "https://tools.qc7.org/"
     weight = 6
   [[menu.main]]
     name = "关于"
