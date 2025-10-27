@@ -6,7 +6,7 @@ description: ''
 draft: false
 image: ''
 slug: media-player
-cover: /archives/media-player/1hphet.png
+cover: /archives/media-player/xv2y7b.png
 tags:
 - vlc
 - player
