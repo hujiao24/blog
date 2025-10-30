@@ -34,6 +34,11 @@ bash <(curl -L https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/
 
 ```json
 {
+    "log": {
+        "loglevel": "debug",
+        "access": "/var/log/v2ray/access.log",
+        "error": "/var/log/v2ray/error.log"
+    },
     "inbounds": [
         {
             "port": 10086,
@@ -54,6 +59,8 @@ bash <(curl -L https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/
     ]
 }
 ```
+
+日志级别 loglevel 根据需要可以设定为 debug、info、warning、error、none，其中 none 表示不记录任何日志
 
 服务的端口需要在防火墙中放行，如 ubuntu 下可以通过 `ufw allow 10086` 进行开启，然后使用 `systemctl status ufw.service` 启动 v2ray 服务
 
