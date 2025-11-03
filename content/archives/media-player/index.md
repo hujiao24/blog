@@ -33,6 +33,10 @@ PotPlayer 并不是开源的软件， VLC 是开源的，并且提供了全平�
 
 ![](/archives/media-player/im39j9.png)
 
+也可以从这里下载 `https://download.videolan.org/pub/videolan/vlc/3.0.21/`，这里提供完整的 sdk 以及对应的调试符号
+
+![](/archives/media-player/79cbc5.png)
+
 ## libvlcpp 
 
 libvlcpp 主要提供若干 hpp 头文件，并没有需要集成的库文件，在使用的时候，只需要在项目中把头文件 include 进来就可以了
