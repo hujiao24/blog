@@ -18,7 +18,7 @@ title: 使用wrangler发布cf的workers项目
 
 但是有些人可能还不知道，cf 还提供了免费的数据库，对大部分个人用户来说，这个免费的额度已经足够使用了，在数据库的基础上，就可以实现动态的 web 服务了
 
-与传统的 web 服务部同，cf 提供的基于 node 的 wrangler 开发部署模式，不支持传统的 php、java、net 等动态语言的 web 服务
+与传统的 web 服务部同，cf 提供的基于 node 的 wrangler 开发部署模式，不支持传统的 php、java、net 等语言的动态 web 服务
 
 
 ## 本地安装wrangler
