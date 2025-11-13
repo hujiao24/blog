@@ -63,7 +63,7 @@ cover: /archives/cloudflare-speedup/vtnptd.png
 
 优选的主要原理就是就是利用大厂完善的优化线路，以下是针对后面说的阿里云配置的情况进行完整描述
 
-1、用户浏览器发起访问 `hujiao24.github.io` 请求，用户向本地递归 DNS 请求 www 子域名的解析
+1、用户浏览器发起访问 `blog.qc7.org` 请求，用户向本地递归 DNS 请求 www 子域名的解析
 
 2、`xqc7.com` 所有权归属 cloudflare，是域名的权威 DNS，并且已委托了 www，因此 cloudflare 告诉递归 DNS，www 子域名解析权已委托给阿里云，请找阿里云解析
 
@@ -71,9 +71,9 @@ cover: /archives/cloudflare-speedup/vtnptd.png
 
 4、`www.csgo.com` 是 cloudflare 的商业用户，拥有比免费用户更好的线路，请求实际上是被发送到了经过优选后线路较好的 cloudflare ip 上
 
-5、cloudflare 的 ip 收到访问请求, 会检查域名 `hujiao24.github.io` 在 cloudflare 中是否有匹配的记录，如果有就将请求回源到设置的服务器上
+5、cloudflare 的 ip 收到访问请求, 会检查域名 `blog.qc7.org` 在 cloudflare 中是否有匹配的记录，如果有就将请求回源到设置的服务器上
 
-6、`hujiao24.github.io` 在 cloudflare 中配置了 pages 站点，最终 cloudflare 返回来 pages 的站点内容
+6、`blog.qc7.org` 在 cloudflare 中配置了 pages 站点，最终 cloudflare 返回来 pages 的站点内容
 
 ## 优选配置
 

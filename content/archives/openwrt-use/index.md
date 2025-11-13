@@ -17,7 +17,7 @@ title: 路由器刷机ImmortalWrt的使用
 
 在路由器中进行代理后，比原来的 pc 端启动客户端进行代理的方式相比有很大的优势，但是依旧存在很多的问题
 
-1、页面上没有找到对 ssr 进行 stop 的按钮，只能终端登录命令进行 stop，即便页面可以 stop，每次登录很麻烦，[这里](https://hujiao24.github.io/archives/openwrt-ssr-restart/) 进行了优化 
+1、页面上没有找到对 ssr 进行 stop 的按钮，只能终端登录命令进行 stop，即便页面可以 stop，每次登录很麻烦，[这里](https://blog.qc7.org/archives/openwrt-ssr-restart/) 进行了优化 
 
 2、ip 地址库的更新问题，导致访问部分站点的时候，本地公网地址一会变国内，一会变国外，这同样带来了很多问题
 

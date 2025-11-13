@@ -87,7 +87,7 @@ echo "hello from cloudflare!";
 
 ![](/archives/cf-tunnel/j23c06.png)
 
-在域中，选择一个配置的域名，不清楚域名配置的可以参考 [这里](https://hujiao24.github.io/archives/cloudflare-domain-hosting)
+在域中，选择一个配置的域名，不清楚域名配置的可以参考 [这里](https://blog.qc7.org/archives/cloudflare-domain-hosting)
 
 URL 指定为前面 phpstudy 部署的本地 web 服务，然后点击 “保存隧道”
 

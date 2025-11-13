@@ -37,7 +37,7 @@ __kernel_entry NTSTATUS NtQueryInformationProcess(
 0x1F  检测调试标志
 ```
 
-其中 0x00 之前分析过，使用的是 peb 结构中的 BeingDebugged 字段值，可以参考这里 https://hujiao24.github.io/archives/anti-debug-04/
+其中 0x00 之前分析过，使用的是 peb 结构中的 BeingDebugged 字段值，可以参考这里 https://blog.qc7.org/archives/anti-debug-04/
 
 至于 CheckRemoteDebuggerPresent 的底层也是调用 NtQueryInformationProcess 实现的，这个之前也提过，其实就是基于 0x07 检测调试端口实现的
 

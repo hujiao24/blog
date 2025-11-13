@@ -22,7 +22,7 @@ cover: /archives/phpvm-protect/fogr32.png
 
 一些在 php 端通过 zend_compile_file 等函数就可以直接 dump 出原代码的，称之为加密实在是抬举了
 
-之前有写过一篇直接 dump 出源码的分析 https://hujiao24.github.io/archives/php-decode 
+之前有写过一篇直接 dump 出源码的分析 https://blog.qc7.org/archives/php-decode 
 
 基于本人有限的了解，私以为 z5 和 swoole 等类似的才能称得上加密，这里的分析仅限于技术交流
 

@@ -125,7 +125,7 @@ update_domain.py 文件内容如下
 import re
 import sys
 
-DOMAIN = "https://hujiao24.github.io"
+DOMAIN = "https://blog.qc7.org"
 
 def process_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
