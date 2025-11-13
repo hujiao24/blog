@@ -229,7 +229,8 @@ $var__7 中有一个 openssl_decrypt 的代码段，使用时提取到 $var__25 
 
 该代码段有几个临时变量名为乱码，手工修改可读显示如下
 
-![20250508114844](/archives/phpvm-protect/izs3m4.png)
+![](/archives/phpvm-protect/3lxdef.png)
+
 
 至此 vm 代码已经全部可读，代码展开后的完整显示如下，其中 get_value 就是前面的定义，$var__3 为密文由于太长这里删掉了
 
