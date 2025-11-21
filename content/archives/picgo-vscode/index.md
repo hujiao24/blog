@@ -378,6 +378,6 @@ index 77950cb..5ea35c2 100644
 
 ## 插件地址
 
-修改后的代码和插件已经提交到 github 上了，如有需要可以从 github 获取 https://github.com/hujiao24/vs-picgo/tree/v2.1.7
+修改后的代码和插件已经提交到 github 上了，如有需要可以从 github 获取 https://github.com/hujiao24/vs-picgo
 
 下载文件列表中的 `vs-picgo-2.1.7.vsix` 插件，然后在 vscode 中进行安装即可，这里 v2.1.7 是基于 v2.1.6 上修改的
